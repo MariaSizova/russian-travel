@@ -5,3 +5,5 @@
 ### В проекте используются следующие технологии:
 1. HTML.
 2. CSS.
+
+### Ссылка на проект: https://mariasizova.github.io/russian-travel/index.html
