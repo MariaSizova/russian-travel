@@ -1,0 +1,24 @@
+.place__main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 80px;
+}
+
+.place__main:last-child {
+  margin-bottom: 0;
+}
+
+
+@media screen and (max-width: 984px) {
+  .place__main {
+    margin-bottom: 174px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .place__main {
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,68 @@
+.cover__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  min-height: 740px;
+  color: #FFFFFF;
+  text-decoration: none;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 20px;
+  background-image: url(../../../images/cover-trains.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1124px) {
+  .cover__item {
+    width: 100%;
+    min-height: 640px;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .cover__item {
+    min-height: 480px;
+    max-width: 768px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .cover__item {
+    min-height: 200px;
+    max-width: 320px;
+  }
+}
+
+.cover__item::before {
+  content: '';
+  background: #2a2c2f;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.cover__item:hover::before {
+  opacity: .8;
+}
