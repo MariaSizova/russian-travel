@@ -22,14 +22,10 @@
 @media screen and (max-width: 984px) {
   .place__website {
     margin-left: 28px;
+	 width: 352px;
   }
 }
 
-@media screen and (max-width: 984px) {
-  .place__website {
-    width: 352px;
-  }
-}
 
 @media screen and (max-width: 568px) {
   .place__website {
