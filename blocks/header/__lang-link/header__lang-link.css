@@ -8,6 +8,13 @@
   margin: 0 18px 0 0;
   padding: 0;
   text-decoration: none;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
 }
 
 .header__lang-link:last-child {

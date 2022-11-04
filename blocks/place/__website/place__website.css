@@ -8,7 +8,6 @@
   flex-direction: column;
   margin-left: 40px;
   width: 456px;
-  height: 46px;
   -ms-flex-item-align: end;
   align-self: flex-end;
 }
@@ -26,8 +25,7 @@
   }
 }
 
-
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 767px) {
   .place__website {
     margin-left: 0;
     align-self: flex-start;

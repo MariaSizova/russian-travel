@@ -5,7 +5,7 @@
   margin-bottom: 48px;
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 767px) {
   .place__header {
     flex-wrap: wrap;
     margin-bottom: 32px;
