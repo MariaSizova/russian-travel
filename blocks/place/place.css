@@ -6,4 +6,17 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  margin-top: 92px;
 }
+ 
+ @media screen and (max-width: 984px) {
+  .place {
+    margin-top: 88px;
+  }
+ }
+ 
+ @media screen and (max-width: 767px) {
+  .place {
+    margin-top: 64px;
+  }
+ }
