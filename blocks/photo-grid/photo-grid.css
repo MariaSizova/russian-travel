@@ -72,7 +72,7 @@
   -ms-grid-column: 7;
 }
 
-@media screen and (max-width: 1124px) {
+@media screen and (max-width: 1279px) {
   .photo-grid {
     gap: 14px;
     grid-template-columns: repeat(3, 1fr);
@@ -80,7 +80,7 @@
   }
 }
 
-@media screen and (max-width: 984px) {
+@media screen and (max-width: 1023px) {
   .photo-grid {
     margin-top: 88px;
     padding: 0 24px;
@@ -90,7 +90,7 @@
   }
 }
 
-@media screen and (max-width: 568px) {
+@media screen and (max-width: 767px) {
   .photo-grid {
     margin-top: 64px;
     padding: 0 16px;

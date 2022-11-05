@@ -7,11 +7,11 @@
 }
 
 @media screen and (max-width: 1124px) {
-	.cover {
-	  margin: 92px 0 0 0;
-	  padding: 0;
-	}
- }
+  .cover {
+    margin: 92px 0 0 0;
+    padding: 0;
+  }
+}
 
 @media screen and (max-width: 984px) {
   .cover {
